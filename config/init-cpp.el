@@ -1,5 +1,3 @@
-(c-toggle-hungry-state t)
-
 ;; Google C++ Style
 (eval-when-compile (require 'cc-defs))
 (defun google-c-lineup-expression-plus-4 (langelem)

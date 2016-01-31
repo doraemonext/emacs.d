@@ -10,6 +10,7 @@
 
 (defconst my-packages
   '(better-defaults
+    auto-complete
     darcula-theme
     exec-path-from-shell
     anzu
@@ -57,6 +58,11 @@
 (require 'init-themes)
 ;; 个人自定义信息设置
 (require 'init-personal)
+;; C++
+(require 'init-cpp)
+;; Auto Complete
+(require 'init-autocomplete)
+
 ;; 导航设置
 (require 'init-helm)
 (require 'init-helm-gtags)
@@ -64,7 +70,5 @@
 (require 'init-cedet)
 ;; 编辑设置
 (require 'init-editing)
-;; C++
-(require 'init-cpp)
 ;; C/C++自动补全设置
 (require 'init-autocomplete)

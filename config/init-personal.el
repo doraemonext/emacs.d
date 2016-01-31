@@ -34,7 +34,7 @@
 ;; 关闭启动画面
 (setq inhibit-startup-message t)
 ;; 换行后自动缩进
-;; (global-set-key "\r" 'newline-and-indent)
+(global-set-key "\r" 'newline-and-indent)
 ;; 手工对齐文本
 (global-set-key (kbd "C-,") 'align)
 ;; 使 buffer name 唯一
