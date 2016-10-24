@@ -62,16 +62,16 @@
 ;; Python
 (require 'init-python)
 ;; C++
-(require 'init-cpp)
+;; (require 'init-cpp)
 ;; Auto Complete
-(require 'init-autocomplete)
+;; (require 'init-autocomplete)
 
 ;; 导航设置
 (require 'init-helm)
 (require 'init-helm-gtags)
 ;; CEDET设置
-(require 'init-cedet)
+;; (require 'init-cedet)
 ;; 编辑设置
 (require 'init-editing)
 ;; C/C++自动补全设置
-(require 'init-autocomplete)
+;; (require 'init-autocomplete)
