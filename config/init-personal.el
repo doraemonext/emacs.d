@@ -1,10 +1,10 @@
 ;; 设置Emacs标题栏
 (setq frame-title-format "Emacs @ %b")
 ;; 保存某个文件中的退出位置
-(require 'saveplace)
-(setq-default save-place t)
+;; (require 'saveplace)
+;; (setq-default save-place t)
 ;; 自动打开上次的文件
-(desktop-save-mode 1)
+;; (desktop-save-mode 1)
 ;; 显示时间
 (setq display-time-day-and-date t)
 (setq display-time-24hr-format t)
@@ -18,7 +18,7 @@
 ;; 支持 emacs 和外部程序的粘贴
 (setq x-select-enable-clipboard t)
 ;; 取消滚动条
-(scroll-bar-mode -1)
+;; (scroll-bar-mode -1)
 ;; 显示列号
 (column-number-mode t)
 ;; 高亮显示选择区域

@@ -18,6 +18,7 @@
     duplicate-thing
     ggtags
     helm
+    elpy
     helm-projectile
     helm-gtags
     helm-swoop
@@ -58,6 +59,8 @@
 (require 'init-themes)
 ;; 个人自定义信息设置
 (require 'init-personal)
+;; Python
+(require 'init-python)
 ;; C++
 (require 'init-cpp)
 ;; Auto Complete
